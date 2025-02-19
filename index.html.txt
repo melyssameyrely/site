@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        a {
+            text-decoration: none;
+            background-color: blue;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        img {
+            width: 200px;
+            transition: width 0.3s ease-in-out;
+        }
+
+        img:hover {
+            width: 500px;
+            cursor: pointer;
+        }
+
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="personalidades.html">PERSONALIDADES</a>
+        <a href="so.html">Sistemas Operacionais</a>
+        <a href="software.html">Conceito de Software</a>
+    </div>
+
+    <h1>Melyssa Meyrely Bonfim dos Santos</h1>
+    <img src="https://png.pngtree.com/png-clipart/20230812/original/pngtree-kitten-small-animal-cartoon-illustration-png-image_10294946.png" alt="Imagem de um gato">
+    
+    <h2>Bill Gates</h2>
+    <p>Bill Gates é um empresário e filantropo conhecido por fundar a Microsoft.</p>
+</body>
+</html>
